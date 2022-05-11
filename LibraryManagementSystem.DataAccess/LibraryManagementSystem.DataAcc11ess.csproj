@@ -54,21 +54,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Mappings\BookMap.cs" />
-    <Compile Include="Mappings\BorrowMap.cs" />
-    <Compile Include="Mappings\StudentMap.cs" />
-    <Compile Include="Mappings\UserMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\LibraryManagementSystem.Entities\LibraryManagementSystem.Entiti11es.csproj">
-      <Project>{ff4b619b-9008-4e8a-940b-75e07fc9eda2}</Project>
-      <Name>LibraryManagementSystem.Entiti11es</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

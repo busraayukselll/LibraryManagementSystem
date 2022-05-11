@@ -7,10 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{CD26
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{6C134BA8-6358-4371-AF91-470DF64861E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementSystem.Entiti11es", "..\LibraryManagementSystem.Entities\LibraryManagementSystem.Entiti11es.csproj", "{FF4B619B-9008-4E8A-940B-75E07FC9EDA2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementSystem.DataAcc11ess", "LibraryManagementSystem.DataAccess\LibraryManagementSystem.DataAcc11ess.csproj", "{A6F606CD-6B73-4911-88FC-64C2F0F8BAE4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementSystem.Busine11ss", "LibraryManagementSystem.Business\LibraryManagementSystem.Busine11ss.csproj", "{878AA3CC-10BB-42C9-9DB4-83DEA033DA5B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManagementSystem.Cor11e", "LibraryManagementSystem.Core\LibraryManagementSystem.Cor11e.csproj", "{0686C8DC-091E-4F51-B8B1-20D910F4BA11}"
@@ -25,14 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FF4B619B-9008-4E8A-940B-75E07FC9EDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF4B619B-9008-4E8A-940B-75E07FC9EDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF4B619B-9008-4E8A-940B-75E07FC9EDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF4B619B-9008-4E8A-940B-75E07FC9EDA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A6F606CD-6B73-4911-88FC-64C2F0F8BAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6F606CD-6B73-4911-88FC-64C2F0F8BAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6F606CD-6B73-4911-88FC-64C2F0F8BAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6F606CD-6B73-4911-88FC-64C2F0F8BAE4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{878AA3CC-10BB-42C9-9DB4-83DEA033DA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{878AA3CC-10BB-42C9-9DB4-83DEA033DA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{878AA3CC-10BB-42C9-9DB4-83DEA033DA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -54,8 +42,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{FF4B619B-9008-4E8A-940B-75E07FC9EDA2} = {CD26F854-36A8-4DE4-A4B6-CB92CBC2EA6F}
-		{A6F606CD-6B73-4911-88FC-64C2F0F8BAE4} = {CD26F854-36A8-4DE4-A4B6-CB92CBC2EA6F}
 		{878AA3CC-10BB-42C9-9DB4-83DEA033DA5B} = {CD26F854-36A8-4DE4-A4B6-CB92CBC2EA6F}
 		{0686C8DC-091E-4F51-B8B1-20D910F4BA11} = {CD26F854-36A8-4DE4-A4B6-CB92CBC2EA6F}
 		{CA06B745-8686-4DA3-8D4B-AA019644E210} = {CD26F854-36A8-4DE4-A4B6-CB92CBC2EA6F}
