@@ -9,7 +9,7 @@ namespace LibraryManagement.Entities.Tables
 {
     public class Student: User
     {
-        public int StudentNo { get; set; }
+        public int No { get; set; }
         public float Debt { get; set; }
     }
 }

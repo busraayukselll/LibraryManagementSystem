@@ -1,4 +1,4 @@
-﻿using LibraryManagement.Entities.Tables;
+﻿using LibraryManagementSystem.Entities.Tables;
 using System.Data.Entity.ModelConfiguration;
 using System.Collections.Generic;
 using System.Linq;
